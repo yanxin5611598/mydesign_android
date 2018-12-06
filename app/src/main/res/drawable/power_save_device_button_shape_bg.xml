@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+        <gradient android:startColor="#c0000000"  android:endColor="#c0000000" android:angle="90" /> 
+    <!--背景颜色渐变 angle为渐变角度-->  
+    <solid android:color="#2199da" />
+    <!-- 背景填充颜色 -->  
+    <stroke android:width="1dp" android:color="#ffffff" />
+    <!-- 描边，边框宽度、颜色 -->  
+    <corners android:radius="12dp" />
+    <!-- 边角圆弧的半径 -->  
+    <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp" />
+    <!-- 四周留出来的空白 --> 
+
+</shape>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/input_evaluate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:minLines="3"
+            android:gravity="top"
+            android:inputType="textLongMessage"
+            android:background="@null"
+            android:textSize="15sp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/title_bar" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <TableRow
+            android:layout_width="221dp"
+            android:layout_height="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_device_detail_id"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:text="@string/device_id"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_device_detail_id_value"
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="@string/device_id"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="233dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_device_detail_placefrom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/device_placefrom"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_device_detail_placefrom_value"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/device_placefrom"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_device_detail_timefrom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/device_timefrom"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_device_detail_timefrom_value"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="@string/device_timefrom"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="265dp"
+            android:layout_height="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_device_detail_state"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/device_state"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_device_detail_state_value"
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="@string/device_state"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+        <TableRow
+            android:id="@+id/tb_placecurrent"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        <TextView
+            android:id="@+id/id_device_detail_placecurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/device_placecurrent"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_device_detail_placecurrent_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:text="@string/device_placecurrent"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </TableRow>
+        <View
+            android:id="@+id/placecurrent_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider"
+            android:visibility="gone"/>
+        <TableRow
+            android:id="@+id/tb_placecurrent_last"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_device_detail_placecurrent_last"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/device_placecurrent_last"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_device_detail_placecurrent_last_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/device_placecurrent_last"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+        <View
+            android:id="@+id/placecurrent_last_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider"
+            android:visibility="gone"/>
+        <TableRow
+            android:id="@+id/tb_timecurrent_last"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_device_detail_timecurrent_last"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/device_timecurrent_last"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/id_device_detail_timecurrent_last_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="@string/device_timecurrent_last"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <View
+            android:id="@+id/id_timecurrent_last_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider"
+            android:visibility="gone"/>
+
+        <TableRow
+            android:layout_width="373dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_device_detail_username"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:text="@string/device_username"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_device_detail_username_value"
+                android:layout_width="14dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="@string/device_username"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

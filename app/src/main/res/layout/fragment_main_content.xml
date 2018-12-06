@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yx.aircheck.view.NoScrollViewPager
+        android:id="@+id/vp_pagers"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"></com.yx.aircheck.view.NoScrollViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#c6d1d2" />
+
+    <RadioGroup
+        android:id="@+id/rg_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_history"
+            style="@style/main_tab_style"
+            android:drawableTop="@drawable/tab_history_bg"
+            android:text="@string/history" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_check"
+            style="@style/main_tab_style"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_check_bg"
+            android:text="@string/check" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_view"
+            style="@style/main_tab_style"
+            android:drawableTop="@drawable/tab_view_bg"
+            android:text="@string/view" />
+        <RadioButton
+            android:id="@+id/rb_content_fragment_device"
+            style="@style/main_tab_style"
+            android:drawableTop="@drawable/tab_device_bg"
+            android:text="@string/device_tab" />
+        <RadioButton
+            android:id="@+id/rb_content_fragment_mine"
+            style="@style/main_tab_style"
+            android:drawableTop="@drawable/tab_mine_bg"
+            android:text="@string/mine" />
+    </RadioGroup>
+
+</LinearLayout>

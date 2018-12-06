@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+        android:background="@mipmap/title_blue_bg" >
+
+    <TextView
+        android:id="@+id/tv_title_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="默认标题"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <ImageButton
+        android:id="@+id/ib_title_bar_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/img_menu"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/ib_title_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/return_new_32"
+        android:visibility="gone" />
+
+<<<<<<< HEAD
+=======
+    <ImageButton
+        android:id="@+id/ib_title_bar_mapmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/map_model2"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_title_bar_map"
+        android:layout_width="28dp"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dip"
+        android:text="地图模式"
+        android:textColor="#FFFFFF"
+        android:textSize="7sp"
+        android:visibility="gone"/>
+>>>>>>> add dynamic chart
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_title_bar_textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/icon_textsize"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ib_title_bar_livable_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/livable_titlebar_menu"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ib_title_bar_scan_devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dip"
+        android:text="@string/scan"
+        android:visibility="gone"
+        android:clickable="true"
+        android:textColor="#f6aa23"
+        android:background="@drawable/power_save_device_button_shape_bg"
+        />
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/ib_power_devices_refrash"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/refresh"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+

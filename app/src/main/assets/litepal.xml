@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="checkResult"></dbname>
+    <version value="2"></version>
+    <list>
+        <mapping class="com.yx.aircheck.bean.CheckData"></mapping>
+        <mapping class="com.yx.aircheck.bean.UserInfo"></mapping>
+        <mapping class="com.yx.aircheck.bean.City"></mapping>
+    </list>
+</litepal>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="提示"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        >
+
+        <TextView
+            android:id="@+id/txtchgedpay"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="请输入房间编号:"
+            android:textSize="17sp"
+
+            />
+
+        <EditText
+            android:id="@+id/No"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-22dp"
+            android:layout_marginStart="-22dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/txtchgedpay"
+            android:layout_toRightOf="@+id/txtchgedpay"
+            android:ems="10"
+            android:hint="Number"
+            android:singleLine="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#D1D1D1" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnok"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/confirm_btn_select"
+            android:textSize="15sp"
+            android:text="确定"/>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#D1D1D1" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cancel_btn_select"
+            android:layout_marginRight="15dp"
+            android:textSize="15sp"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>

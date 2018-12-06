@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/view_child_house_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/hotel_48" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/view_username"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="yanxin" />
+
+                <ImageView
+                    android:id="@+id/view_child_location_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:src="@mipmap/location" />
+
+                <TextView
+                    android:id="@+id/view_location"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="center_vertical"
+                    android:text="西南交通大学" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="2dp"
+                    android:text="等级:" />
+
+                <TextView
+                    android:id="@+id/view_rank"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="2dp"
+                    android:text="良"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/view_time"
+                    android:layout_width="187dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="10dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="2dp"
+                    android:text="时间:" />
+                <TextView
+                    android:id="@+id/view_air_params"
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="10dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="2dp"
+                    android:visibility="gone"
+                    android:text="时间:" />
+                <TextView
+                    android:id="@+id/view_air_contentEvaluate"
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="10dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="2dp"
+                    android:visibility="gone"
+                    android:text="时间:" />
+                <TextView
+                    android:id="@+id/view_air_imageInfo"
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="10dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="2dp"
+                    android:visibility="gone"
+                    android:text="图片信息:" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/view_child_image_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:background="@color/cp_divider"
+            android:src="@mipmap/detail_48" />
+    </LinearLayout>
+</RelativeLayout>

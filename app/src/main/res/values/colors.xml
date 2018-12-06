@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="left_bg_color">#bfbbbc</color>
+    <color name="gray">#bfbfbf</color>
+<<<<<<< HEAD
+=======
+    <color name="mygray">#e1e1e1</color>
+>>>>>>> add dynamic chart
+    <color name="blue">#2199da</color>
+    <color name="blue_qian">#69c6f9</color>
+    <color name="white">#fafafa</color>
+    <color name="black">#060606</color>
+    <color name="red">#ca0909</color>
+    <color name="device">#ca0909</color>
+    <color name="popwin">#212020</color>
+    <color name="tab">#3a82f5</color>
+    <color name="test">#cbfaf5</color>
+    <!--城市选择-->
+    <color name="cp_divider">#faf8f8</color>
+    <color name="cp_shadow">#AAEBEBEB</color>
+    <color name="cp_common_bg">#FAFAFA</color>
+    <color name="cp_content_bg">@color/cp_colorAccent</color>
+    <color name="cp_gray">#8c8c8c</color>
+    <color name="cp_gray_deep">#5c5c5c</color>
+    <color name="cp_alpha_gray">#CC646464</color>
+    <color name="cp_theme_gray">#646464</color>
+    <color name="cp_colorPrimary">#3F51B5</color>
+    <color name="cp_colorPrimaryDark">#303F9F</color>
+    <color name="cp_colorAccent">#3F51B5</color>
+
+    <color name="cp_color_gray_light">#cdcdcd</color>
+    <color name="cp_color_gray">#999999</color>
+    <color name="cp_color_gray_deep">#666666</color>
+    <color name="cp_color_gray_dark">#333333</color>
+    <color name="cp_color_section_bg">#EDEDED</color>
+    <color name="cp_color_grid_item_bg">#f5f5f5</color>
+</resources>

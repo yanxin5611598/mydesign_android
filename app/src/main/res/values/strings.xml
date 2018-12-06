@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">AirMonitor</string>
+    <string name="history_record">历史记录</string>
+    <string name="history">历史</string>
+    <string name="check">检测</string>
+    <string name="deviceCenter">设备</string>
+    <string name="view">查看</string>
+    <string name="view_data">平台数据</string>
+    <string name="device_tab">设备</string>
+    <string name="mine">我的</string>
+    <string name="login_register_link">No account yet? Create one</string>
+    <string name="username">用户名</string>
+    <string name="account_code">账号:</string>
+
+    <string name="remain_point_value">1</string>
+    <string name="edit">编辑 ></string>
+
+    <string name="temperature">温度</string>
+    <string name="humidity">湿度  </string>
+    <string name="air_quality">空气质量</string>
+    <string name="ill">甲醛</string>
+    <string name="pm25">PM2.5</string>
+    <string name="pm10">PM10</string>
+
+    <string name="scan">扫描</string>
+    <string name="scan_pre">扫码检测</string>
+    <string name="upload">上传数据</string>
+
+
+    <!-- 用户注册与登录 -->
+    <string name="user">不能是中文</string>
+    <string name="secret">大于6位的数字和字母组合</string>
+
+    <!--左边菜单的字符串-->
+    <string name="user_info">个人中心</string>
+    <string name="vip_center">VIP中心</string>
+    <string name="point_center">积分中心</string>
+    <string name="help_center">帮   助</string>
+    <!--积分页面的字符串-->
+    <string name="point_username">用户名</string>
+    <string name="point_activity">,您当前的积分:</string>
+    <string name="point_10">10个积分:2元</string>
+    <string name="point_20">20个积分:3元</string>
+    <string name="point_50">50个积分:5元</string>
+    <string name="point_100">100个积分:8元</string>
+    <string name="device">请选择您所要充值的类别:</string>
+    <string name="point">积分中心</string>
+    <string name="remain_point">积分:</string>
+    <!--用户相关的字符串-->
+    <string name="user_">用户中心</string>
+    <string name="user_username">用户名:</string>
+    <string name="user_gender">性别:</string>
+    <string name="user_age">年龄:</string>
+    <string name="user_phone">手机号:</string>
+    <string name="user_email">邮箱:</string>
+    <string name="user_point">积分:</string>
+    <!--VIP相关的字符串-->
+    <string name="vip">VIP中心</string>
+    <string name="vip_username">用户名:</string>
+    <string name="vip_info_yes">当前已开通</string>
+    <string name="vip_info_no">当前未开通</string>
+    <string name="vip_info">立即开通</string>
+    <!--view弹出窗口相关的字符串-->
+    <string name="time_de">时间降序</string>
+    <string name="time_in">时间升序</string>
+    <string name="name_de">名称降序</string>
+    <string name="name_in">名称升序</string>
+    <string name="airq_de">质量降序</string>
+    <string name="airq_in">质量升序</string>
+    <string name="select_params">参数选择</string>
+    <string name="select_location">地址选择</string>
+    <string name="param_choh">甲醛质量</string>
+    <string name="param_pm25">PM2.5质量</string>
+    <string name="param_pm10">PM10质量</string>
+    <string name="param_co2">CO2质量</string>
+    <!--城市选择-->
+    <string name="cp_select_city">选择城市</string>
+    <string name="cp_hot_city">热门城市</string>
+    <string name="cp_located_city">定位城市</string>
+    <string name="cp_hint_search_box">请输入城市名或拼音</string>
+    <string name="cp_nothing_found">没有搜索结果~</string>
+    <string name="cp_located_failed">定位失败</string>
+    <string name="cp_search_hint_text">城市中文名或拼音</string>
+    <string name="cp_cancel">取消</string>
+    <string name="cp_no_result">没有找到，换个词试试~</string>
+    <string name="cp_locate_failed">定位失败</string>
+<<<<<<< HEAD
+    <string name="cp_locating">正在定位…</string>
+=======
+    <string name="cp_locating">正在定位</string>
+>>>>>>> add dynamic chart
+    <!--查看详情信息页面的字符串-->
+    <string name="view_detail_info">详细信息</string>
+    <string name="view_detail_username">上传者:</string>
+    <string name="view_detail_location">位置:</string>
+    <string name="view_detail_room">房间号:</string>
+    <string name="view_detail_params">空气参数:</string>
+    <string name="view_detail_rank">空气等级:</string>
+    <string name="view_detail_image">雷达图:</string>
+    <string name="view_detail_imageInfo">图片信息:</string>
+    <string name="view_detail_content">评价信息:</string>
+<<<<<<< HEAD
+    <string name="view_detail_time">上传时间:</string>
+=======
+    <string name="view_detail_history">历史记录:</string>
+    <string name="view_detail_history_more">(曲线显示历史检测等级)</string>
+    <string name="view_detail_history_one">(当前没有其它历史检测记录)</string>
+>>>>>>> add dynamic chart
+    <!--设备主页面相关-->
+    <string name="device_nums">设备总数量:</string>
+    <string name="device_id">设备编号:</string>
+    <string name="device_state">设备编号:</string>
+    <string name="device_placefrom">设备生产地点:</string>
+    <string name="device_timefrom">设备生产时间:</string>
+    <string name="device_placecurrent">设备当前使用地点:</string>
+    <string name="device_placecurrent_last">设备上次使用地点:</string>
+    <string name="device_timecurrent_last">设备上次使用时间:</string>
+    <string name="device_username">使用者:</string>
+    <string name="device_phone">联系方式:</string>
+    <!--webview相关的字符串-->
+    <string name="air_display">空气曲线显示</string>
+<<<<<<< HEAD
+=======
+    <!--地图模式下的activity显示相关字符串-->
+    <string name="map_title">地图显示</string>
+>>>>>>> add dynamic chart
+</resources>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/title_bar" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> add dynamic chart
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+<<<<<<< HEAD
+        android:layout_alignParentTop="true" >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_view_detail_username"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_username"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_view_detail_username_value"
+                android:layout_width="218dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/view_detail_username"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_view_detail_location"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_location"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_view_detail_location_value"
+                    android:layout_width="213dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:text="@string/view_detail_location"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.amap.api.maps.TextureMapView
+
+                android:id="@+id/map"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                 />
+            <!--android:layout_marginLeft="10dp"-->
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_view_detail_room"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_room"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_view_detail_room_value"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/view_detail_room"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_view_detail_params"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_params"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="122dp"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/id_view_detail_params_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:text="@string/view_detail_params"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_view_detail_rank"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_rank"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_view_detail_rank_value"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/view_detail_rank"
+                android:textSize="18sp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+        <TableRow
+            android:id="@+id/id_tb_image"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_image"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/id_view_detail_image_info"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/view_detail_imageInfo"
+                android:textSize="18sp" />
+        </TableRow>
+        <LinearLayout
+            android:id="@+id/id_ll_image_display"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/id_view_detail_image_display"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_view_detail_contentEvaluate"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_content"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_view_detail_contentEvaluate_value"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/view_detail_content"
+                android:textSize="18sp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_view_detail_time"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="@string/view_detail_time"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/id_view_detail_time_value"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="@string/view_detail_time"
+                android:textSize="18sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="10dp"
+                android:gravity="right"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+=======
+        android:layout_alignParentTop="true">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_view_detail_location"
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/view_detail_location"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_view_detail_location_value"
+                        android:layout_width="238dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:text="@string/view_detail_location"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.amap.api.maps.TextureMapView
+
+                    android:id="@+id/map"
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent" />
+                <!--android:layout_marginLeft="10dp"-->
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="9dp"
+                android:background="@mipmap/list_devider" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_view_detail_rank"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/view_detail_rank"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/id_view_detail_rank_value"
+                    android:layout_width="232dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:text="@string/view_detail_rank"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="9dp"
+                android:background="@mipmap/list_devider" />
+
+            <TableRow
+                android:id="@+id/id_tb_image"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/view_detail_image"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/id_view_detail_image_info"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:text="@string/view_detail_imageInfo"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <LinearLayout
+                android:id="@+id/id_ll_image_display"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/id_view_detail_image_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="9dp"
+                android:background="@mipmap/list_devider" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_view_detail_contentEvaluate"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/view_detail_content"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/id_view_detail_contentEvaluate_value"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:text="@string/view_detail_content"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="9dp"
+                android:background="@mipmap/list_devider" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_view_detail_time"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/view_detail_history"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/view_detail_history_more"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="@string/view_detail_history_more"
+                    android:textColor="@color/cube_mints_4d90fe"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/view_detail_history_one"
+                    android:layout_width="234dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="@string/view_detail_history_one"
+                    android:textColor="@color/cube_mints_4d90fe"
+                    android:textSize="14sp"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <LinearLayout
+                android:id="@+id/id_ll_history_image_display"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/id_view_detail_history_image_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8" />
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="10dp"
+                    android:gravity="right"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+>>>>>>> add dynamic chart
+    </ScrollView>
+</LinearLayout>

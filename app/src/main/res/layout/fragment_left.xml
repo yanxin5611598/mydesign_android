@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/left_bg_color"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <!-- 个人信息 : 头像+信息 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="9dp">
+
+            <FrameLayout
+                android:id="@+id/left_fl"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:layout_marginLeft="5dp">
+
+                <ImageButton
+                    android:id="@+id/ib_mine_portrait"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@mipmap/mine_portrait"
+
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_mine_account_name"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/left_fl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:layout_toRightOf="@id/left_fl"
+                android:text="@string/username"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/left_gender_image_boy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="90dp"
+                android:src="@mipmap/boy_16"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/left_gender_image_gril"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="90dp"
+                android:src="@mipmap/gril_16"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@mipmap/list_devider" />
+    <!--个人中心-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp">
+            <FrameLayout
+                android:id="@+id/f_user"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/usercenter_32" />
+
+                <TextView
+                    android:id="@+id/user_info"
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="43dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_info"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </FrameLayout>
+    </RelativeLayout>
+    <!--VIP中心-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp">
+
+        <FrameLayout
+            android:id="@+id/f_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="9dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/vip_24" />
+
+            <TextView
+                android:id="@+id/vip_info"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical"
+                android:text="@string/vip_center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </RelativeLayout>
+    <!--积分中心-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp">
+
+    <FrameLayout
+        android:id="@+id/f_point"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pointcenter_24" />
+
+        <TextView
+            android:id="@+id/point_info"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical"
+            android:text="@string/point_center"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </FrameLayout>
+    </RelativeLayout>
+    <!--帮助中心-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp">
+
+        <FrameLayout
+            android:id="@+id/f_help"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/helpcenter_32" />
+
+            <TextView
+                android:id="@+id/help_info"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="44dp"
+                android:gravity="center_vertical"
+                android:text="@string/help_center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>
